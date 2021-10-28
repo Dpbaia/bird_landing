@@ -1,0 +1,22 @@
+.banner {
+  background-image: url("https://images.unsplash.com/photo-1568090462505-41b77370cd71?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1172&q=80");
+  filter:saturate(100%);
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 5px 5px 5px #81667A;
+  text-shadow: 2px 2px 5px black;
+  /* Last number is for the blur!*/
+  margin-bottom: 3px;
+}
+
+.banner > div {
+  margin: 100px;
+  margin-top: 125px;
+}
+
+.banner p {
+  color: lightgrey;
+  text-shadow: 2px 2px 2px black;
+}

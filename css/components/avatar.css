@@ -1,0 +1,11 @@
+#avatar-round {
+  width: 75px;
+  height: 75px;
+  border-radius: 120px;
+  position: absolute;
+  bottom: 10%;
+  right: 2%;
+  border: 2px solid white;
+  box-shadow: 2px 2px 10px lightgray;
+  margin: 5px;
+}

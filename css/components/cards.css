@@ -1,0 +1,77 @@
+/* Category */
+.card-category{
+  background-image: url("https://images.unsplash.com/photo-1591990763121-e8ef6fc416b9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1259&q=80");
+  filter:opacity(85%);
+  filter:saturate(50%);
+  background-size: cover;
+  color: white;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #81667A;
+  text-shadow: 2px 2px 5px black;
+  /* Last number is for the blur!*/
+  margin-bottom: 3px;
+}
+
+/* Featured Birds */
+
+.card-product {
+  box-shadow: 5px 5px 20px lightgray;
+  margin-bottom: 3px;
+  height: 50%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  min-width: 420px;
+  min-height: 100px;
+  background-color: #AC9989;
+  color: white;
+  text-shadow: 2px 2px 5px black;
+
+}
+
+.card-product img{
+  height: 100%;
+  width: 300px;
+  /* width: 250px; */
+  object-fit: cover;
+  margin-right: 2%;
+}
+
+.card-product h2 {
+  background-color: rgba(93,95,101,0.8);
+  padding-left: 3%;
+}
+
+/* Sanctuary? */
+
+.card-trip {
+  box-shadow: 5px 5px 20px lightgray;
+  margin-bottom: 3px;
+  position: relative;
+  background-color: #AC9989;
+
+}
+
+.card-trip img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter:saturate(120%);
+}
+
+.card-trip > div{
+  /* Selected the direct child, not all of the divs under it. */
+  display: flex;
+  margin: 0px 3%;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.card-trip p{
+  font-family: Helvetica;
+  font-size: 16px;
+}

@@ -1,0 +1,16 @@
+.btn-green {
+ color: white;
+ background-color: #6bd58b;
+ border-radius: 5px;
+ padding: 15px 25px;
+ font-family: Helvetica;
+ font-weight: bold;
+ transition-duration: 0.5s;
+ box-shadow: 3px 3px 10px rgba(200,200,200,0.6);
+}
+
+.btn-green:hover {
+  background-color: #4BBD6D;
+  text-shadow: none;
+  box-shadow: none;
+}

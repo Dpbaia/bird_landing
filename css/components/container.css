@@ -1,0 +1,10 @@
+.container-twosidebyside {
+  display: flex;
+  align-items:center;
+}
+
+.container-twosidebyside div {
+  height: 200px;
+  object-fit:fill;
+  width: 100%;
+}

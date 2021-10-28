@@ -1,0 +1,18 @@
+.footer {
+  background-color: black;
+  margin: 0;
+  text-align: center;
+}
+
+.footer h2 {
+  margin-top: 10px;
+}
+
+.footer ul{
+  margin-bottom: 0;
+}
+
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+}
